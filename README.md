@@ -8,7 +8,7 @@ How to run:
 git clone git@github.com:marceloverdijk/astro-chanfana-zod-openapi.git
 cd astro-chanfana-zod-openapi
 npm i
-npm run dev:verbose
+npm run dev
 ```
 
 Open:
