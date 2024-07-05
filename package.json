@@ -1,0 +1,29 @@
+{
+  "name": "astro-chanfana-zod-openapi",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "ncu": "ncu",
+    "ncu:upgrade": "ncu --upgrade --filterVersion '^*'",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write ."
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/node": "^8.3.2",
+    "astro": "^4.11.5",
+    "chanfana": "^2.0.2",
+    "itty-router": "^5.0.17",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^16.14.20",
+    "prettier": "^3.3.2",
+    "prettier-plugin-astro": "^0.14.0"
+  }
+}
