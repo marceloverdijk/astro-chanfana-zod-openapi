@@ -1,6 +1,10 @@
 import { fromIttyRouter } from 'chanfana';
 import { Router } from 'itty-router';
+import { z } from 'zod';
+import { extendZodWithOpenApi } from '@asteasolutions/zod-to-openapi';
 import { GetBook, GetBooks } from '@/api/endpoints';
+
+extendZodWithOpenApi(z);
 
 const router = Router();
 
