@@ -17,6 +17,4 @@ const openapi = fromIttyRouter(router, {
 openapi.get('/api/books', GetBooks);
 openapi.get('/api/books/:book_id', GetBook);
 
-// TODO.
-
 export default router;
